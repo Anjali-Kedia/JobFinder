@@ -3,7 +3,7 @@ import Nav from './components/NavBarDiv/NavBar'
 import Search from './components/SearchDiv/Search';
 import Job from './components/JobDiv/Job';
 import Value from './components/ValueDiv/Value';
-import Footer from './components/FooterDiv/footer';
+import Footer from './components/FooterDiv/Footer';
 
 const App = () => {
   return (
