@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './components/NavBar/navbar';
+import Nav from './components/NavBarDiv/NavBar'
 import Search from './components/SearchDiv/Search';
 import Job from './components/JobDiv/Job';
 import Value from './components/ValueDiv/Value';
@@ -8,7 +8,7 @@ import Footer from './components/FooterDiv/footer';
 const App = () => {
   return (
     <div className='w-[85%] m-auto bg-white'>
-      <NavBar/>
+      <Nav/>
       <Search/>
       <Job/>
       <Value/>

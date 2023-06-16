@@ -73,11 +73,11 @@ const Job = () => {
             return (
               //This will a single job post based on the ID
               <div key={id} className='group group/item singleJob w-[250px] p-[20px] bg-white rounded-[10px]
-                  hover:bg-blueColor shadow-lg shadow-greyIsh-400/700 hover:shadow-lg'>
+                  hover:bg-blueColor  shadow-lg shadow-greyIsh-400/700 hover:shadow-lg'>
 
                 <span className='flex justify-between items-center gap-4'>
                   <h1 className='text-[16px] font-semibold text-textColor 
-                  group-hover:text-white'>
+                  group-hover:text-white '>
                     {title}
                   </h1>
                 <span className='flex items-center text-[#ccc] gap-1'>
@@ -92,7 +92,7 @@ const Job = () => {
                 <span className='text-[14px] py-[1rem] block group-hover:text-white'>{company}</span>
                 </div>
                 <button className="border-[2px] rounded-[5px] block p-[10px] w-full 
-                text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">
+                text-[14px] font-semibold text-textColor hover:bg-white hover:text-black group-hover/item:text-textColor group-hover:text-black">
                   Apply Now
                 </button>
               </div>
